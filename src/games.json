@@ -1,0 +1,474 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "The classic number-merging puzzle game.",
+    "thumbnail": "https://picsum.photos/seed/2048/400/300",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle"
+  },
+  {
+    "id": "math-playground",
+    "title": "Math Playground",
+    "description": "A collection of fun math games and logic puzzles.",
+    "thumbnail": "https://picsum.photos/seed/math/400/300",
+    "iframeUrl": "https://www.mathplayground.com/",
+    "category": "Apps"
+  },
+  {
+    "id": "coolmath-games",
+    "title": "Coolmath Games",
+    "description": "The ultimate destination for logic and strategy games.",
+    "thumbnail": "https://picsum.photos/seed/coolmath/400/300",
+    "iframeUrl": "https://www.coolmathgames.com/",
+    "category": "Apps"
+  },
+  {
+    "id": "sudoku-online",
+    "title": "Sudoku",
+    "description": "Classic logic-based number placement puzzle.",
+    "thumbnail": "https://picsum.photos/seed/sudoku/400/300",
+    "iframeUrl": "https://sudoku.com/",
+    "category": "Puzzle"
+  },
+  {
+    "id": "minecraft-classic",
+    "title": "Minecraft Classic",
+    "description": "The original creative building game in your browser.",
+    "thumbnail": "https://picsum.photos/seed/minecraft/400/300",
+    "iframeUrl": "https://classic.minecraft.net/",
+    "category": "Action"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "description": "The perfect game for the armchair quarterback to finally prove a point.",
+    "thumbnail": "https://picsum.photos/seed/football/400/300",
+    "iframeUrl": "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
+    "category": "Sports"
+  },
+  {
+    "id": "tetris-classic",
+    "title": "Tetris",
+    "description": "The world-famous puzzle game that everyone knows and loves.",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Puzzle"
+  },
+  {
+    "id": "bitlife",
+    "title": "BitLife",
+    "description": "How will you live your BitLife? Will you try to make all the right choices?",
+    "thumbnail": "https://picsum.photos/seed/life/400/300",
+    "iframeUrl": "https://bitlifeonline.io/",
+    "category": "Simulation"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "description": "The original idle game where you bake an absurd amount of cookies.",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Simulation"
+  },
+  {
+    "id": "shell-shockers",
+    "title": "Shell Shockers",
+    "description": "The world's most advanced egg-based multiplayer shooter.",
+    "thumbnail": "https://picsum.photos/seed/egg/400/300",
+    "iframeUrl": "https://shellshock.io/",
+    "category": "Action"
+  },
+  {
+    "id": "slope-2",
+    "title": "Slope 2",
+    "description": "The sequel to the hit game Slope. More speed, more obstacles.",
+    "thumbnail": "https://picsum.photos/seed/slope2/400/300",
+    "iframeUrl": "https://slope-game.github.io/",
+    "category": "Action"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "description": "Fast-paced 3D runner where you dodge obstacles in a neon tunnel.",
+    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
+    "iframeUrl": "https://tunnelrush.io/",
+    "category": "Action"
+  },
+  {
+    "id": "geometry-dash",
+    "title": "Geometry Dash",
+    "description": "Jump and fly your way through danger in this rhythm-based action platformer.",
+    "thumbnail": "https://picsum.photos/seed/geometry/400/300",
+    "iframeUrl": "https://geometry-dash.io/",
+    "category": "Action"
+  },
+  {
+    "id": "friday-night-funkin",
+    "title": "Friday Night Funkin'",
+    "description": "A rhythm game where you must win a rap battle against your girlfriend's father.",
+    "thumbnail": "https://picsum.photos/seed/funkin/400/300",
+    "iframeUrl": "https://ninja-muffin24.itch.io/funkin",
+    "category": "Action"
+  },
+  {
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "description": "Build and fight in this competitive multiplayer shooter.",
+    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
+    "iframeUrl": "https://1v1.lol/",
+    "category": "Action"
+  },
+  {
+    "id": "drift-hunters",
+    "title": "Drift Hunters",
+    "description": "A free-to-play 3D drifting game with a great selection of cars.",
+    "thumbnail": "https://picsum.photos/seed/drift/400/300",
+    "iframeUrl": "https://drift-hunters.io/",
+    "category": "Sports"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "Fast-paced hexagonal puzzle game inspired by Tetris.",
+    "thumbnail": "https://picsum.photos/seed/hextris/400/300",
+    "iframeUrl": "https://hextris.io/",
+    "category": "Arcade"
+  },
+  {
+    "id": "doodle-jump",
+    "title": "Doodle Jump",
+    "description": "Jump as high as you can in this addictive platformer.",
+    "thumbnail": "https://picsum.photos/seed/jump/400/300",
+    "iframeUrl": "https://scratch.mit.edu/projects/26891182/embed",
+    "category": "Arcade"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "description": "Navigate through pipes in this frustratingly fun classic.",
+    "thumbnail": "https://picsum.photos/seed/bird/400/300",
+    "iframeUrl": "https://scratch.mit.edu/projects/17430960/embed",
+    "category": "Arcade"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "Roll down the slope for as long as possible without falling.",
+    "thumbnail": "https://picsum.photos/seed/slope/400/300",
+    "iframeUrl": "https://kdata1.com/2020/05/slope/",
+    "category": "Action"
+  },
+  {
+    "id": "paper-io",
+    "title": "Paper.io 2",
+    "description": "Capture as much territory as possible in this multiplayer game.",
+    "thumbnail": "https://picsum.photos/seed/paper/400/300",
+    "iframeUrl": "https://paper-io.com/",
+    "category": "IO"
+  },
+  {
+    "id": "minecraft-classic",
+    "title": "Minecraft Classic",
+    "description": "The original creative mode of Minecraft in your browser.",
+    "thumbnail": "https://picsum.photos/seed/minecraft/400/300",
+    "iframeUrl": "https://classic.minecraft.net/",
+    "category": "Sandbox"
+  },
+  {
+    "id": "tetris-classic",
+    "title": "Tetris",
+    "description": "The timeless block-stacking puzzle game.",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Puzzle"
+  },
+  {
+    "id": "pacman-classic",
+    "title": "Pac-Man",
+    "description": "The legendary arcade game. Eat dots, avoid ghosts.",
+    "thumbnail": "https://picsum.photos/seed/pacman/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Arcade"
+  },
+  {
+    "id": "snake-google",
+    "title": "Google Snake",
+    "description": "The classic snake game from Google Search.",
+    "thumbnail": "https://picsum.photos/seed/snake/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/snake10-i.html",
+    "category": "Arcade"
+  },
+  {
+    "id": "chess",
+    "title": "Chess (Lichess)",
+    "description": "Play chess against the computer or solve puzzles.",
+    "thumbnail": "https://picsum.photos/seed/chess/400/300",
+    "iframeUrl": "https://lichess.org/training/frame?theme=brown&bg=dark",
+    "category": "Strategy"
+  },
+  {
+    "id": "fnaf-epstein",
+    "title": "Five Nights at Epstein's",
+    "description": "A parody horror survival game. Survive the night in a mysterious location.",
+    "thumbnail": "https://watermelon46.com/Hosted/activities/imgs/FiveNightsAtEpstein.webp",
+    "iframeUrl": "https://www.watermelon46.com/Hosted/activities/playable/FiveNightsAtEpstein/fnae.html",
+    "category": "Horror"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "description": "The perfect game for the armchair quarterback to finally prove a point.",
+    "thumbnail": "https://picsum.photos/seed/football/400/300",
+    "iframeUrl": "https://scratch.mit.edu/projects/609170326/embed",
+    "category": "Sports"
+  },
+  {
+    "id": "bitlife",
+    "title": "BitLife",
+    "description": "How will you live your BitLife? Will you try to make all the right choices?",
+    "thumbnail": "https://picsum.photos/seed/life/400/300",
+    "iframeUrl": "https://bitlifeonline.io/",
+    "category": "Simulation"
+  },
+  {
+    "id": "infinite-craft",
+    "title": "Infinite Craft",
+    "description": "Combine elements to create anything you can imagine in this AI-powered sandbox.",
+    "thumbnail": "https://picsum.photos/seed/craft/400/300",
+    "iframeUrl": "https://neal.fun/infinite-craft/",
+    "category": "Sandbox"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "description": "The original idle game where you bake an absurd amount of cookies.",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/300",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Simulation"
+  },
+  {
+    "id": "vex-7",
+    "title": "Vex 7",
+    "description": "The latest installment in the challenging stickman parkour series.",
+    "thumbnail": "https://picsum.photos/seed/vex/400/300",
+    "iframeUrl": "https://vex7.io/",
+    "category": "Action"
+  },
+  {
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "description": "Build and fight in this competitive third-person shooter.",
+    "thumbnail": "https://picsum.photos/seed/fight/400/300",
+    "iframeUrl": "https://1v1.lol/",
+    "category": "Action"
+  },
+  {
+    "id": "shell-shockers",
+    "title": "Shell Shockers",
+    "description": "The world's most advanced egg-based multiplayer shooter.",
+    "thumbnail": "https://picsum.photos/seed/egg/400/300",
+    "iframeUrl": "https://shellshock.io/",
+    "category": "IO"
+  },
+  {
+    "id": "drift-hunters",
+    "title": "Drift Hunters",
+    "description": "High-octane drifting simulator with customizable cars.",
+    "thumbnail": "https://picsum.photos/seed/car/400/300",
+    "iframeUrl": "https://www.drift-hunters.com/",
+    "category": "Sports"
+  },
+  {
+    "id": "geoguessr",
+    "title": "GeoGuessr (Free)",
+    "description": "Explore the world and guess where you are based on street view.",
+    "thumbnail": "https://picsum.photos/seed/world/400/300",
+    "iframeUrl": "https://www.geoguessr.com/free",
+    "category": "Strategy"
+  },
+  {
+    "id": "little-alchemy-2",
+    "title": "Little Alchemy 2",
+    "description": "Mix items and see what you can create in this classic discovery game.",
+    "thumbnail": "https://picsum.photos/seed/alchemy/400/300",
+    "iframeUrl": "https://littlealchemy2.com/",
+    "category": "Puzzle"
+  },
+  {
+    "id": "fnaf-1",
+    "title": "Five Nights at Freddy's",
+    "description": "Can you survive five nights at Freddy Fazbear's Pizza?",
+    "thumbnail": "https://picsum.photos/seed/fnaf1/400/300",
+    "iframeUrl": "https://fnaf.kdata1.com/fnaf1/",
+    "category": "Horror"
+  },
+  {
+    "id": "fnaf-2",
+    "title": "Five Nights at Freddy's 2",
+    "description": "New characters, new mechanics, same terror. Welcome back to Freddy's.",
+    "thumbnail": "https://picsum.photos/seed/fnaf2/400/300",
+    "iframeUrl": "https://fnaf.kdata1.com/fnaf2/",
+    "category": "Horror"
+  },
+  {
+    "id": "fnaf-3",
+    "title": "Five Nights at Freddy's 3",
+    "description": "Thirty years after Freddy Fazbear's Pizza closed its doors, the horror returns.",
+    "thumbnail": "https://picsum.photos/seed/fnaf3/400/300",
+    "iframeUrl": "https://fnaf.kdata1.com/fnaf3/",
+    "category": "Horror"
+  },
+  {
+    "id": "fnaf-4",
+    "title": "Five Nights at Freddy's 4",
+    "description": "This time, the terror has followed you home.",
+    "thumbnail": "https://picsum.photos/seed/fnaf4/400/300",
+    "iframeUrl": "https://fnaf.kdata1.com/fnaf4/",
+    "category": "Horror"
+  },
+  {
+    "id": "fnaf-sl",
+    "title": "FNAF: Sister Location",
+    "description": "Welcome to Circus Baby's Rentals and Entertainment. Don't hold it against us.",
+    "thumbnail": "https://picsum.photos/seed/fnafsl/400/300",
+    "iframeUrl": "https://fnaf.kdata1.com/fnafsl/",
+    "category": "Horror"
+  },
+  {
+    "id": "fnaf-ucn",
+    "title": "FNAF: Ultimate Custom Night",
+    "description": "The ultimate FNAF mashup, featuring 50 selectable characters.",
+    "thumbnail": "https://picsum.photos/seed/fnafucn/400/300",
+    "iframeUrl": "https://fnaf.kdata1.com/ucn/",
+    "category": "Horror"
+  },
+  {
+    "id": "tiktok-mirror",
+    "title": "TikTok (Unblocked)",
+    "description": "Watch trending TikTok videos without an account or app.",
+    "thumbnail": "https://picsum.photos/seed/tiktok/400/300",
+    "iframeUrl": "https://urlebird.com/",
+    "category": "Social"
+  },
+  {
+    "id": "movies-mirror-1",
+    "title": "Movies & TV (Server 1)",
+    "description": "Stream the latest movies and TV shows for free.",
+    "thumbnail": "https://picsum.photos/seed/movies/400/300",
+    "iframeUrl": "https://movies7.to/",
+    "category": "Movies"
+  },
+  {
+    "id": "movies-mirror-2",
+    "title": "Movies & TV (Server 2)",
+    "description": "Alternative server for streaming movies and shows.",
+    "thumbnail": "https://picsum.photos/seed/cinema/400/300",
+    "iframeUrl": "https://fbox.to/",
+    "category": "Movies"
+  },
+  {
+    "id": "movies-mirror-3",
+    "title": "Movies & TV (Server 3)",
+    "description": "High-quality streaming for the latest releases.",
+    "thumbnail": "https://picsum.photos/seed/film/400/300",
+    "iframeUrl": "https://vidsrc.to/",
+    "category": "Movies"
+  },
+  {
+    "id": "movies-mirror-4",
+    "title": "Movies & TV (Server 4)",
+    "description": "Fast streaming with multiple subtitle options.",
+    "thumbnail": "https://picsum.photos/seed/theater/400/300",
+    "iframeUrl": "https://movie-web.app/",
+    "category": "Movies"
+  },
+  {
+    "id": "youtube-unblocked",
+    "title": "YouTube (Invidious)",
+    "description": "Watch YouTube videos without ads or tracking.",
+    "thumbnail": "https://picsum.photos/seed/youtube/400/300",
+    "iframeUrl": "https://yewtu.be/",
+    "category": "Apps"
+  },
+  {
+    "id": "google-drive-proxy",
+    "title": "Drive Proxy",
+    "description": "Access your files through a secure web proxy.",
+    "thumbnail": "https://picsum.photos/seed/drive/400/300",
+    "iframeUrl": "https://www.google.com/drive/",
+    "category": "Apps"
+  },
+  {
+    "id": "discord-web",
+    "title": "Discord Web",
+    "description": "Chat with friends on Discord directly in your browser.",
+    "thumbnail": "https://picsum.photos/seed/discord/400/300",
+    "iframeUrl": "https://discord.com/app",
+    "category": "Apps"
+  },
+  {
+    "id": "spotify-web",
+    "title": "Spotify Web Player",
+    "description": "Listen to your favorite music and podcasts.",
+    "thumbnail": "https://picsum.photos/seed/music/400/300",
+    "iframeUrl": "https://open.spotify.com/",
+    "category": "Apps"
+  },
+  {
+    "id": "twitter-mirror",
+    "title": "Twitter (Nitter)",
+    "description": "Browse Twitter without ads or tracking.",
+    "thumbnail": "https://picsum.photos/seed/twitter/400/300",
+    "iframeUrl": "https://nitter.net/",
+    "category": "Social"
+  },
+  {
+    "id": "reddit-mirror",
+    "title": "Reddit (Libreddit)",
+    "description": "Browse Reddit without ads or tracking.",
+    "thumbnail": "https://picsum.photos/seed/reddit/400/300",
+    "iframeUrl": "https://libredd.it/",
+    "category": "Social"
+  },
+  {
+    "id": "instagram-mirror",
+    "title": "Instagram (Viewer)",
+    "description": "View Instagram profiles and posts without an account.",
+    "thumbnail": "https://picsum.photos/seed/instagram/400/300",
+    "iframeUrl": "https://imginn.com/",
+    "category": "Social"
+  },
+  {
+    "id": "snapchat-web",
+    "title": "Snapchat Web",
+    "description": "Use Snapchat directly in your browser.",
+    "thumbnail": "https://picsum.photos/seed/snap/400/300",
+    "iframeUrl": "https://web.snapchat.com/",
+    "category": "Social"
+  },
+  {
+    "id": "desmos",
+    "title": "Desmos Graphing Calc",
+    "description": "Advanced graphing calculator for math and science.",
+    "thumbnail": "https://picsum.photos/seed/calc/400/300",
+    "iframeUrl": "https://www.desmos.com/calculator",
+    "category": "Apps"
+  },
+  {
+    "id": "geogebra",
+    "title": "GeoGebra Classic",
+    "description": "Dynamic mathematics software for all levels of education.",
+    "thumbnail": "https://picsum.photos/seed/math/400/300",
+    "iframeUrl": "https://www.geogebra.org/classic",
+    "category": "Apps"
+  },
+  {
+    "id": "friday-night-funkin",
+    "title": "Friday Night Funkin'",
+    "description": "Get your rhythm on in this popular musical battle game.",
+    "thumbnail": "https://picsum.photos/seed/rhythm/400/300",
+    "iframeUrl": "https://fnf.kdata1.com/",
+    "category": "Arcade"
+  }
+]

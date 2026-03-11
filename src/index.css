@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Georgia", serif;
+}
+
+:root {
+  --bg: #0f172a;
+  --ink: #f8fafc;
+  --line: rgba(255, 255, 255, 0.1);
+  --accent: #3b82f6;
+  --neon-green: #22c55e;
+  --neon-blue: #3b82f6;
+  --neon-pink: #ec4899;
+  --neon-red: #ef4444;
+  --neon-yellow: #eab308;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-50 font-sans selection:bg-blue-500/30 antialiased;
+  }
+}
+
+@layer utilities {
+  .brutal-border {
+    @apply border border-slate-800;
+  }
+
+  .data-row {
+    @apply flex items-center p-4 border-b border-slate-800 transition-all hover:bg-slate-900/50 cursor-pointer;
+  }
+
+  .col-header {
+    @apply font-serif italic text-[11px] opacity-50 uppercase tracking-widest;
+  }
+
+  .data-value {
+    @apply font-mono text-sm tracking-tight;
+  }
+
+  .neon-green { color: var(--neon-green); }
+  .neon-blue { color: var(--neon-blue); }
+  .neon-pink { color: var(--neon-pink); }
+  .neon-red { color: var(--neon-red); }
+  .neon-yellow { color: var(--neon-yellow); }
+
+  .bg-neon-green { @apply bg-green-500/10 text-green-400 border-green-500/20; }
+  .bg-neon-blue { @apply bg-blue-500/10 text-blue-400 border-blue-500/20; }
+  .bg-neon-pink { @apply bg-pink-500/10 text-pink-400 border-pink-500/20; }
+  .bg-neon-red { @apply bg-red-500/10 text-red-400 border-red-500/20; }
+  .bg-neon-yellow { @apply bg-yellow-500/10 text-yellow-400 border-yellow-500/20; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+}
