@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Gamepad2, X, Maximize2, ExternalLink, Filter, Info } from 'lucide-react';
+import { Search, Gamepad2, X, Maximize2, ExternalLink, Filter, Info, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import gamesData from './games.json';
 
@@ -25,7 +25,7 @@ export default function App() {
     } else {
       document.title = "gmath";
       const link = document.querySelector("link[rel*='icon']");
-      if (link) link.href = '/favicon.ico';
+      if (link) link.href = 'https://ssl.gstatic.com/classroom/favicon.png'; // Use a reliable remote icon as default
     }
   }, [isStealthMode]);
 
@@ -119,11 +119,19 @@ export default function App() {
   }, [currentPageData]);
 
   const filteredGames = useMemo(() => {
-    return currentPageData.filter(game => {
+    const games = currentPageData.filter(game => {
       const matchesSearch = game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           game.description.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = selectedCategory === 'All' || game.category === selectedCategory;
       return matchesSearch && matchesCategory;
+    });
+
+    // Deduplicate by ID to prevent React key warnings
+    const seen = new Set();
+    return games.filter(game => {
+      if (seen.has(game.id)) return false;
+      seen.add(game.id);
+      return true;
     });
   }, [searchQuery, selectedCategory, currentPageData]);
 
@@ -361,6 +369,9 @@ export default function App() {
                     alt={game.title}
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100"
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.target.src = 'https://picsum.photos/seed/math/400/300?blur=2';
+                    }}
                   />
                   <div className="absolute top-2 right-2 bg-black/80 brutal-border px-2 py-1 text-[10px] font-mono uppercase">
                     {game.category}
